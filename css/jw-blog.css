@@ -1,11 +1,6 @@
 /*!
- * Hux Blog v1.0.0 (http://huxpro.github.io)
- * Copyright 2018 Hux
- */
-
-/*!
- * Hux Blog v1.0.0 (http://huxpro.github.io)
- * Copyright 2018 Hux
+ * jw Blog v1.0.0 (http://iamwjj.github.io)
+ * Copyright 2018 Jw
  */
 
 @media (min-width: 1200px) {
@@ -858,6 +853,10 @@ body {
   }
 }
 /* Tags support End*/
+/*Jw customize style for short-about*/
+.short-about ul.list-inline {
+  text-align: center;
+}
 /* Hux make all img responsible in post-container */
 .post-container img {
   display: block;
