@@ -5,6 +5,8 @@ subtitle:   "Hello, My Blog"
 date:       2018-04-01 00:27:20 +0800
 author:     "Jensen"
 header-img: "img/post-bg-life.jpg"
+tags:
+    - 生活
 ---
 
 

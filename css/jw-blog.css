@@ -149,6 +149,9 @@ pre code {
   white-space: pre;
   word-wrap: normal;
 }
+.post-content {
+  overflow: hidden;
+}
 .post-container a {
   color: #337ab7;
 }
@@ -565,7 +568,7 @@ pre code {
 }
 footer {
   font-size: 20px;
-  padding: 50px 0 65px;
+  padding: 50px 0;
 }
 footer .list-inline {
   margin: 0;
@@ -574,6 +577,7 @@ footer .list-inline {
 footer .copyright {
   font-size: 14px;
   text-align: center;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 footer .copyright a {
@@ -854,7 +858,7 @@ body {
 }
 /* Tags support End*/
 /*Jw customize style for short-about*/
-.short-about ul.list-inline {
+.short-about .list-inline {
   text-align: center;
 }
 /* Hux make all img responsible in post-container */

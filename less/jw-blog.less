@@ -111,6 +111,10 @@ pre code{
 	word-wrap: normal;	// no-wrap
 }
 
+//Jw add post-content
+.post-content{
+	overflow:hidden;
+}
 
 // In the post.
 .post-container{
@@ -530,7 +534,7 @@ pre code{
 
 footer {
 	font-size: 20px;
-	padding: 50px 0 65px;
+	padding: 50px 0;
 	.list-inline {
 		margin: 0;
 		padding: 0;
@@ -538,6 +542,7 @@ footer {
 	.copyright {
 		font-size: 14px;
 		text-align: center;
+		margin-top:15px;
 		margin-bottom: 0;
 		a{
 			color:#337ab7;
@@ -714,7 +719,7 @@ body {
 
 /* Hux add tags support */
 .tags{
-	// margin-bottom: -5px;			// Jw modified.
+	margin-bottom: -5px;
 	a,.tag{
 		display: inline-block;
 		border: 1px solid rgba(255,255,255,0.8);
