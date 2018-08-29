@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Git生成并配置多个SSH key"
+keyword: "git, ssh key"
 author: "Jensen"
 date: 2018-04-21 00:07:00 +0800
 header-img: ""
