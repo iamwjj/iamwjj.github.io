@@ -2,16 +2,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% if page.keyword %}
-    <meta name="keyword"  content="{{ page.keyword}}">
-    {% else %}
-    <meta name="keyword"  content="{{ site.keyword }}">
-    {% endif %}
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-    {% else %}
+    <meta name="keywords"  content="{{ site.keyword | append: '，' | append: page.keyword }}">
     <meta name="description" content="{{ site.description }}">
-    {% endif %}
     <meta name="robots"  content="index,follow">
     <!-- <link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico"> -->
 
