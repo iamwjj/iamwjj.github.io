@@ -6,8 +6,6 @@ date:       2018-04-01 00:27:20 +0800
 author:     "Jensen"
 header-img: "img/post-bg-life.jpg"
 comments: true
-tags:
-    - 入门
 ---
 
 

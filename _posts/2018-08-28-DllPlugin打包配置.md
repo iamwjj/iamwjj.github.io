@@ -71,6 +71,8 @@ module.exports = {
 
 到这里，没什么报错信息的话，就会顺利生成`vendor.js`和`manifest.json`文件。 当然为了减小`vendor.js`的体积，可以使用`UglifyJSPlugin`插件来压缩一下代码。
 
+`manifest.json`包含了import或required的模块 id 的映射。 DLLReferencePlugin 会用到这个文件
+
 #### DllReferencePlugin 配置
 
 > 这个插件是在 webpack 主配置文件中设置的， 这个插件把只有 dll 的 bundle(们)(dll-only-bundle(s)) 引用到需要的预编译的依赖。
