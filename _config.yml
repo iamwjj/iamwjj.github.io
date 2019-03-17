@@ -13,11 +13,8 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-# weibo_username:     huxpro
-# zhihu_username:     huxpro
 github_username:    iamwjj
 twitter_username:  iamwenjianjun
-# facebook_username:  huxpro
 
 
 
@@ -44,6 +41,7 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter: rouge
 
 
 
