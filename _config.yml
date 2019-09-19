@@ -1,5 +1,5 @@
 # Site settings
-title: Jw Blog
+title: 菜鸟的自我总结
 SEOTitle: 温建军的博客 | Jw Blog
 header-img: img/index-bg.jpg
 email: 793729222@qq.com
@@ -63,7 +63,7 @@ comments: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "多读书，多看报，少吃零食多睡觉"
+sidebar-about-description: "这个家伙很懒~"
 sidebar-avatar: /img/avatar-jw.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
