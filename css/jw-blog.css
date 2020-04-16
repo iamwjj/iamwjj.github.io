@@ -229,7 +229,7 @@ pre code {
     float: right;
     margin: 0px;
   }
-  #huxblog_navbar {
+  #jwblog_navbar {
     opacity: 0;
     transform: scaleX(0);
     transform-origin: top right;
@@ -238,11 +238,11 @@ pre code {
     -webkit-transform-origin: top right;
     -webkit-transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #huxblog_navbar a {
+  #jwblog_navbar a {
     font-size: 13px;
     line-height: 28px;
   }
-  #huxblog_navbar .navbar-collapse {
+  #jwblog_navbar .navbar-collapse {
     height: 0px;
     transform: scaleY(0);
     transform-origin: top right;
@@ -251,21 +251,21 @@ pre code {
     -webkit-transform-origin: top right;
     -webkit-transition: -webkit-transform 500ms cubic-bezier(0.23, 1, 0.32, 1);
   }
-  #huxblog_navbar li {
+  #jwblog_navbar li {
     opacity: 0;
     transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
     -webkit-transition: opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 205ms;
   }
-  #huxblog_navbar.in {
+  #jwblog_navbar.in {
     transform: scaleX(1);
     -webkit-transform: scaleX(1);
     opacity: 1;
   }
-  #huxblog_navbar.in .navbar-collapse {
+  #jwblog_navbar.in .navbar-collapse {
     transform: scaleY(1);
     -webkit-transform: scaleY(1);
   }
-  #huxblog_navbar.in li {
+  #jwblog_navbar.in li {
     opacity: 1;
   }
 }

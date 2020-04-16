@@ -63,7 +63,7 @@ comments: true
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "这个家伙很懒~"
+sidebar-about-description: "主职前端，兼职修电脑"
 sidebar-avatar: /img/avatar-jw.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

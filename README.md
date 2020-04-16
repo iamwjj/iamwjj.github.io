@@ -1,16 +1,9 @@
-## 关于
+## 个人博客
 
-作为一个菜鸟程序猿（前端小白），一直想有自己的博客，但是又觉得自己写出来的东西拿不上台面，还是别误导了别人。但是现在觉得，博客不单是写给别人看，也是记录自己成长的过程和经验教训，分享出来也可能帮助到他人或给他人带来一些喜悦。
+记录一些踩过的坑和学习的笔记，多总结提高。
 
-虽然也会在像简书这样的平台上写点东西，但是作为搞前端的我来说，觉得自己的博客样式能定制化才好玩，这点我是非常同意黄玄大神的，所以当我看到
-他的博客的时候，觉得非常简洁美观，而且之前也关注过 [GithubPage](https://pages.github.com) + [Jekyll](https://jekyllrb.com/) 搭建静态博客页面的技术。于是，我的博客就搭建起来啦。[传送门](https://iamwjj.github.io)。
-
-在这里的，我可能会更多地记录一下自己在技术上踩过的坑和解决方案，还有学习的分享。偶尔也会记录一下生活，因为我即将会拥有一只喵星人的陪伴。
+本地预览: `jekyll serve --livereload`
 
 ## 感谢
 
-这个博客的模板是黄玄大神基于Clean Blog修改的一个模板，看到后非常喜欢，所以就拿来借用一下，非常感谢。
-
-这里是他的博客的样板[View Boilerplate &rarr;](http://huangxuan.me/huxblog-boilerplate/)。
-
-这里是他的博客[Hux Blog](https://github.com/Huxpro/huxpro.github.io), 博客里有所有的文档。
+博客模板fork自[黄玄](https://github.com/Huxpro/huxpro.github.io)，基于Clean Blog修改的一个模板
