@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input id="textInput" type="text">
+  <button id="copy">复制</button>
+  <button id="paste">粘贴</button>
+  <script>
+    console.log(copy)
+    copy.addEventListener('click', () => {
+      textInput.select()
+      document.execCommand('copy')
+    })
+
+    paste.addEventListener('click', () => {
+      textInput.focus()
+      // Chrome、Firefox 不支持 document.execCommand('paste')
+      console.log(document.execCommand('paste'))
+    })
+
+    document.addEventListener('copy', (e) => {
+      console.log('触发了copy事件')
+      // e.preventDefault()
+      // let oClipboardData = e.clipboardData
+      // oClipboardData.setData('text/plain', '纯文本类型')
+      // oClipboardData.setData('text/html', '<div>html类型</div>')
+      // oClipboardData.setData('customtype/string', '自定义类型')
+    })
+  </script>
+</body>
+</html>
